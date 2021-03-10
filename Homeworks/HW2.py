@@ -48,7 +48,6 @@ cvs[5] = cv5
 
 for id, info in cvs.items():
     print("\nCV Number:", id)
-    
     for key in info:
         print(key.capitalize() + ':', info[key])
 
