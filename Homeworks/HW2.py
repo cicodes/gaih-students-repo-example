@@ -45,7 +45,6 @@ cvs[3] = cv3
 cvs[4] = cv4
 cvs[5] = cv5
 
-
 for id, info in cvs.items():
     print("\nCV Number:", id)
     for key in info:
