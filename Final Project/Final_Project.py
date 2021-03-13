@@ -3,44 +3,44 @@
 #On soru ve Cevabı tutan dictionary
 questionAndAnswers = {
     "q1": {
-        "question": "Bir ne?",
-        "answer": "1000"
+        "question": "Ulu Önder Atatürk'ün doğum yılı nedir?",
+        "answer": "1881"
     },
     "q2": {
-        "question": "İki ne?",
-        "answer": "2000"
+        "question": "İstanbul'un kaç ilçesi vardır?",
+        "answer": "39"
     },
     "q3": {
-        "question": "Üç ne?",
-        "answer": "3000"
+        "question": "Türkiye kaç coğrafi bölgeye ayrılmıştır?",
+        "answer": "7"
     },
     "q4": {
-        "question": "Bir ne?",
-        "answer": "4000"
+        "question": "NBA'de kaç takım vardır?",
+        "answer": "30"
     },
     "q5": {
-        "question": "İki ne?",
-        "answer": "5000"
+        "question": "Bir Python kütüphanesi olan Pandas neyin kısaltmasıdır?",
+        "answer": "Panel Data"
     },
     "q6": {
-        "question": "Üç ne?",
-        "answer": "6000"
+        "question": "Pandas kütüphanesinin temeli hangi yılda atılmıştır?",
+        "answer": "2008"
     },
     "q7": {
-        "question": "Bir ne?",
-        "answer": "7000"
+        "question": "Numpy array'lerinin boyu sayısını yeniden düzenlemek için kullanılan metodun ismi nedir?",
+        "answer": "reshape"
     },
     "q8": {
-        "question": "İki ne?",
-        "answer": "8000"
+        "question": "Mantıksal doğru ve yanlış ifadelerini tanımlamak için kullanılan veri tipinin adı nedir?",
+        "answer": "boolean"
     },
     "q9": {
-        "question": "Üç ne?",
-        "answer": "9000"
+        "question": "Programlamada fonksiyonları tanımlarken oluşturulan girdi değerlerine ne ad verilir(ingilizcesi)?",
+        "answer": "Parameter"
     },
     "q10": {
-        "question": "On ne?",
-        "answer": "10000"
+        "question": "Programlamada fonksiyonları çağırırken gönderilen girdilere ne ad verilir(ingilizcesi)?",
+        "answer": "argument"
     }
 }
 
