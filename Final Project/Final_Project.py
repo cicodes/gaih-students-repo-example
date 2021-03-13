@@ -27,7 +27,7 @@ questionAndAnswers = {
         "answer": "2008"
     },
     "q7": {
-        "question": "Numpy array'lerinin boyu sayısını yeniden düzenlemek için kullanılan metodun ismi nedir?",
+        "question": "Numpy array'lerinin boyut sayısını yeniden düzenlemek için kullanılan metodun ismi nedir?",
         "answer": "reshape"
     },
     "q8": {
@@ -46,11 +46,13 @@ questionAndAnswers = {
 
 #Başlangıç Puanı
 point = 0
+questionNumber = 0
 
-print("GlobalAIHub Bilgi Yarışmasına Hoşgeldiniz. Yarışmamız 10 soruluktur. Başarılar :)")
+print("GlobalAIHub Bilgi Yarışmasına Hoşgeldiniz. Yarışmamız 10 sorudan oluşmaktadır. Başarılar :)")
 #10 soru sorup aldığımız cevapları gerçek cevaplar ile karşılaştırıp doğru ise 10 puan yükseltiyoruz
 for q in questionAndAnswers.values():
-    userAnswer = input(q['question'])
+    questionNumber+=1
+    userAnswer = input(str(questionNumber)+ ". " + q['question'] + "\nCevabınız: ")
     #userAnswer'ı ve answer'ı küçük harflere çeviriyoruz. 
     if(userAnswer.lower() == q['answer'].lower()):
         point += 10
